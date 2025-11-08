@@ -8,6 +8,9 @@ build/
 *.o
 *.out
 
+# VS Code settings
+.vscode/
+
 # Ignore CMake-generated files
 CMakeCache.txt
 CMakeFiles/
