@@ -40,11 +40,6 @@ void saveTasks(const std::vector<std::string>& tasks, const std::string& filenam
     
 void loadTasks(std::vector<std::string>& tasks, const std::string& filename) {
     std::ifstream file(filename);
-
-    if (!file) {
-        std::cerr << "Error: Could not open file for reading: " << filename << "\n";
-        return;
-    }
     std::string line;
     while (getline(file, line)) tasks.push_back(line);
     file.close();
