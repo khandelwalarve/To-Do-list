@@ -1,0 +1,21 @@
+# Ignore build outputs
+build/
+*.exe
+
+# Ignore temporary or system files
+*.log
+*.obj
+*.o
+*.out
+
+# Ignore CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore backup or editor files
+*.swp
+*.tmp
+*.bak
+.DS_Store
